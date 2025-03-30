@@ -1,0 +1,25 @@
+body{
+    background-image: url("Amman\ BG\ 1.jpeg");
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    
+}
+#Father{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+
+}
+#Clock{
+    font-size: 7rem;
+    color:white;
+    text-align: center;
+    font-family: monospace;
+    font-weight: bold;
+    width:100%;
+    backdrop-filter: blur(2px);
+    background-color: hsla(0, 0%, 100%, 0.05);
+}
